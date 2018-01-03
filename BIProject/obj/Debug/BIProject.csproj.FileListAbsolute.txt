@@ -1,0 +1,10 @@
+C:\Users\Andy\Desktop\BI\BIProject\BIProject\bin\Debug\BIProject.exe.config
+C:\Users\Andy\Desktop\BI\BIProject\BIProject\bin\Debug\BIProject.exe
+C:\Users\Andy\Desktop\BI\BIProject\BIProject\bin\Debug\BIProject.pdb
+C:\Users\Andy\Desktop\BI\BIProject\BIProject\obj\Debug\BIProject.csprojResolveAssemblyReference.cache
+C:\Users\Andy\Desktop\BI\BIProject\BIProject\obj\Debug\BIProject.Form1.resources
+C:\Users\Andy\Desktop\BI\BIProject\BIProject\obj\Debug\BIProject.Properties.Resources.resources
+C:\Users\Andy\Desktop\BI\BIProject\BIProject\obj\Debug\BIProject.csproj.GenerateResource.Cache
+C:\Users\Andy\Desktop\BI\BIProject\BIProject\obj\Debug\BIProject.exe
+C:\Users\Andy\Desktop\BI\BIProject\BIProject\obj\Debug\BIProject.pdb
+C:\Users\Andy\Desktop\BI\BIProject\BIProject\obj\Debug\BIProject.aboutBox.resources
