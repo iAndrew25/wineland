@@ -29,13 +29,19 @@ namespace BIProject
 
         private void toolStripButton1_Click_1(object sender, EventArgs e)
         {
-            aboutBox ab = new aboutBox();
+            var ab = new aboutBox();
             ab.Show();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void identifyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var wc = new wine_color();
+            wc.Show();
         }
     }
 }

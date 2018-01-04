@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="client_preference.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>client_preference.xsd</DependentUpon>
+    </Compile>
     <Compile Include="main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="wine-color.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wine-color.Designer.cs">
+      <DependentUpon>wine-color.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinesDatabaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WinesDatabaseDataSet.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="main.resx">
       <DependentUpon>main.cs</DependentUpon>
     </EmbeddedResource>
@@ -76,6 +93,20 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="wine-color.resx">
+      <DependentUpon>wine-color.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="client_preference.xsc">
+      <DependentUpon>client_preference.xsd</DependentUpon>
+    </None>
+    <None Include="client_preference.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>client_preference.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="client_preference.xss">
+      <DependentUpon>client_preference.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -85,6 +116,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="WinesDatabaseDataSet.xsc">
+      <DependentUpon>WinesDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="WinesDatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WinesDatabaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WinesDatabaseDataSet.xss">
+      <DependentUpon>WinesDatabaseDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -94,6 +136,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WinesDatabase.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

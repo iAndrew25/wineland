@@ -8,3 +8,5 @@ C:\Users\Andy\Desktop\BI\BIProject\BIProject\obj\Debug\BIProject.exe
 C:\Users\Andy\Desktop\BI\BIProject\BIProject\obj\Debug\BIProject.pdb
 C:\Users\Andy\Desktop\BI\BIProject\BIProject\obj\Debug\BIProject.aboutBox.resources
 C:\Users\Andy\Desktop\BI\BIProject\BIProject\obj\Debug\BIProject.main.resources
+C:\Users\Andy\Desktop\BI\BIProject\BIProject\obj\Debug\BIProject.wine_color.resources
+C:\Users\Andy\Desktop\BI\BIProject\BIProject\bin\Debug\WinesDatabase.accdb

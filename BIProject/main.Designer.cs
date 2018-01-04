@@ -44,6 +44,7 @@
             this.toolStrip1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.toolStrip1.BackColor = System.Drawing.Color.Transparent;
             this.toolStrip1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.toolStrip1.GripMargin = new System.Windows.Forms.Padding(0);
             this.toolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripDropDownButton1,
@@ -76,6 +77,7 @@
             this.identifyToolStripMenuItem.Name = "identifyToolStripMenuItem";
             this.identifyToolStripMenuItem.Size = new System.Drawing.Size(517, 22);
             this.identifyToolStripMenuItem.Text = "I. Identify Customer Preference By Wine Color";
+            this.identifyToolStripMenuItem.Click += new System.EventHandler(this.identifyToolStripMenuItem_Click);
             // 
             // iIIdentifyPeriodsOfMaximMinimumInTermsOfSalesOfWineToolStripMenuItem
             // 
@@ -107,14 +109,19 @@
             this.toolStripButton1.Text = "About";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click_1);
             // 
-            // Form1
+            // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = global::BIProject.Properties.Resources.bg;
             this.ClientSize = new System.Drawing.Size(399, 260);
             this.Controls.Add(this.toolStrip1);
-            this.Name = "Form1";
+            this.MaximizeBox = false;
+            this.Name = "main";
+            this.ShowIcon = false;
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Wineland";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.toolStrip1.ResumeLayout(false);
