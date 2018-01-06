@@ -64,6 +64,12 @@
     <Compile Include="about.Designer.cs">
       <DependentUpon>about.cs</DependentUpon>
     </Compile>
+    <Compile Include="periods-sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="periods-sale.Designer.cs">
+      <DependentUpon>periods-sale.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="wine-color.cs">
@@ -77,11 +83,19 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>WinesDatabaseDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="WinesDatabaseDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WinesDatabaseDataSet1.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="main.resx">
       <DependentUpon>main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="about.resx">
       <DependentUpon>about.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="periods-sale.resx">
+      <DependentUpon>periods-sale.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -126,6 +140,17 @@
     </None>
     <None Include="WinesDatabaseDataSet.xss">
       <DependentUpon>WinesDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="WinesDatabaseDataSet1.xsc">
+      <DependentUpon>WinesDatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="WinesDatabaseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WinesDatabaseDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WinesDatabaseDataSet1.xss">
+      <DependentUpon>WinesDatabaseDataSet1.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

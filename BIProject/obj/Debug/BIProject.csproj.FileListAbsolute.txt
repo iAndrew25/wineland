@@ -10,3 +10,4 @@ C:\Users\Andy\Desktop\BI\BIProject\BIProject\obj\Debug\BIProject.aboutBox.resour
 C:\Users\Andy\Desktop\BI\BIProject\BIProject\obj\Debug\BIProject.main.resources
 C:\Users\Andy\Desktop\BI\BIProject\BIProject\obj\Debug\BIProject.wine_color.resources
 C:\Users\Andy\Desktop\BI\BIProject\BIProject\bin\Debug\WinesDatabase.accdb
+C:\Users\Andy\Desktop\BI\BIProject\BIProject\obj\Debug\BIProject.periods_sale.resources

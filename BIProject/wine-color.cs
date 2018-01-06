@@ -94,18 +94,6 @@ namespace BIProject
             }
         }
 
-        private void toggleDisplay() {
-            if(dataGridView1.Visible) {
-                dataGridView1.Hide();
-                chart.Show();
-                chartBtn.Text = "Table";
-            } else {
-                dataGridView1.Show();
-                chart.Hide();
-                chartBtn.Text = "Chart";
-            }
-        }
-
         private void wine_color_Load(object sender, EventArgs e) {
             ConnectToAccess();
             chart.Hide();
@@ -123,7 +111,18 @@ namespace BIProject
 
         private void chartBtn_Click(object sender, EventArgs e)
         {
-            toggleDisplay();
+            if (dataGridView1.Visible)
+            {
+                dataGridView1.Hide();
+                chart.Show();
+                chartBtn.Text = "Table";
+            }
+            else
+            {
+                dataGridView1.Show();
+                chart.Hide();
+                chartBtn.Text = "Chart";
+            }
         }
     }
 }

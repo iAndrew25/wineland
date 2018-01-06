@@ -84,6 +84,7 @@
             this.iIIdentifyPeriodsOfMaximMinimumInTermsOfSalesOfWineToolStripMenuItem.Name = "iIIdentifyPeriodsOfMaximMinimumInTermsOfSalesOfWineToolStripMenuItem";
             this.iIIdentifyPeriodsOfMaximMinimumInTermsOfSalesOfWineToolStripMenuItem.Size = new System.Drawing.Size(517, 22);
             this.iIIdentifyPeriodsOfMaximMinimumInTermsOfSalesOfWineToolStripMenuItem.Text = "II. Identify periods of maxim/ minimum in terms of sales of wine";
+            this.iIIdentifyPeriodsOfMaximMinimumInTermsOfSalesOfWineToolStripMenuItem.Click += new System.EventHandler(this.iIIdentifyPeriodsOfMaximMinimumInTermsOfSalesOfWineToolStripMenuItem_Click);
             // 
             // iIIHighlightTheLinkBetweenReductionsIncreasesAndPriceAndEvolutionOfSalesToolStripMenuItem
             // 

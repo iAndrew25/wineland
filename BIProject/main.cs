@@ -43,5 +43,11 @@ namespace BIProject
             var wc = new wine_color();
             wc.Show();
         }
+
+        private void iIIdentifyPeriodsOfMaximMinimumInTermsOfSalesOfWineToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var ps = new periods_sale();
+            ps.Show();
+        }
     }
 }
