@@ -83,6 +83,16 @@ namespace BIProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bg_sales {
+            get {
+                object obj = ResourceManager.GetObject("bg-sales", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ss {
             get {
                 object obj = ResourceManager.GetObject("ss", resourceCulture);
