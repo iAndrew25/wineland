@@ -1,0 +1,4 @@
+id,month,year,s.id_wine,quantity,id_county,w.id_wine,wine_name,id_sweetness,id_color
+58,12,2016,6,324,IS,6,Silvaner,D,W
+60,12,2016,6,122,IS,6,Silvaner,D,W
+7,2,2013,6,313,IS,6,Silvaner,D,W

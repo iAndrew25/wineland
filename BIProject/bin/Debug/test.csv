@@ -1,0 +1,47 @@
+id_wine,wine_name,id_sweetness,id_color
+28,Blanc de Blancs,D,S
+27,Blanc de Noirs,D,S
+39,Blush Wine,OD,R
+29,Brut,BD,S
+44,Bulk Wines,S,RR
+30,Cava,BD,S
+19,Chenin Blanc,OD,W
+53,Chianti,BD,RR
+38,Cream Shery,VS,D
+5,Fiano,D,W
+45,Freisa,S,RR
+9,Garganega,D,W
+24,Ice Wine,S,W
+49,Lambrusco,SS,RR
+52,Malbec,D,RR
+33,Malvasia Secco,OD,S
+15,Marsane,BD,W
+36,Maury,S,D
+23,Muller-Thurgau,OD,W
+37,Muscat de Rivesaltes,SS,D
+4,Orvieto,D,W
+3,Pinot Blanc,D,W
+2,Pinot Grigio,D,W
+32,Prosecco,OD,S
+46,Recioto della Valpolicella,S,RR
+21,Riesling Spatlese,OD,W
+43,Rosaldo,D,R
+35,Ruby Port,S,D
+31,Sec,BD,S
+51,Shiraz,D,RR
+6,Silvaner,D,W
+17,Soave,BD,W
+54,Tannat,BD,RR
+42,Tavel,D,R
+47,Tawny Port,VS,RR
+16,Tokaji,BD,W
+18,Torrontes,BD,W
+50,Valpolicella,SS,RR
+1,Verdejo,D,W
+40,Vin Girls,OD,R
+48,Vin Santo Rosso,VS,RR
+14,Vinho Verde,D,W
+26,Vintage Champagne,D,S
+34,Vintage Port,S,D
+25,Vouvray,S,W
+41,White Zinfandel,OD,R
