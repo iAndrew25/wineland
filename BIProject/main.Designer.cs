@@ -99,6 +99,7 @@
             this.iVTheRecordOfMaximumMinimumInAPeriodToolStripMenuItem.Name = "iVTheRecordOfMaximumMinimumInAPeriodToolStripMenuItem";
             this.iVTheRecordOfMaximumMinimumInAPeriodToolStripMenuItem.Size = new System.Drawing.Size(517, 22);
             this.iVTheRecordOfMaximumMinimumInAPeriodToolStripMenuItem.Text = "IV. The record of maximum/ minimum in a period";
+            this.iVTheRecordOfMaximumMinimumInAPeriodToolStripMenuItem.Click += new System.EventHandler(this.iVTheRecordOfMaximumMinimumInAPeriodToolStripMenuItem_Click);
             // 
             // toolStripButton1
             // 

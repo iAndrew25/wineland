@@ -56,8 +56,6 @@ namespace BIProject
             lastQuery = $"select * from sales s inner join wines w on s.id_wine=w.id_wine where s.id_county='{county}' and w.wine_name='{wine}'";
             dataGridView1.DataSource = getData(lastQuery);
             drawChart(getData($"SELECT year, sum(quantity)from sales s inner join wines w on s.id_wine = w.id_wine where w.wine_name='{wine}' and id_county = '{county}' group by year"));
-
-
         }
 
         private void drawChart(DataTable res)
@@ -148,8 +146,7 @@ namespace BIProject
                 return;
             }
 
-            var g = getData(lastQuery);
-            DataTable dt = g;
+            DataTable dt = getData(lastQuery);
             StringBuilder sb = new StringBuilder();
 
             IEnumerable<string> columnNames = dt.Columns.Cast<DataColumn>().Select(column => column.ColumnName);
@@ -168,7 +165,6 @@ namespace BIProject
             if (dialogResult == DialogResult.Yes)
             {
                 System.Diagnostics.Process.Start("C:/Users/Andy/Desktop/BI/BIProject/BIProject/bin/Debug/sale-periods.csv");
-                MessageBox.Show("y");
             }
 
         }

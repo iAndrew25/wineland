@@ -49,5 +49,11 @@ namespace BIProject
             var ps = new periods_sale();
             ps.Show();
         }
+
+        private void iVTheRecordOfMaximumMinimumInAPeriodToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var pr = new period_record();
+            pr.Show();
+        }
     }
 }

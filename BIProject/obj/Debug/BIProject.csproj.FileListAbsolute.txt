@@ -12,3 +12,4 @@ C:\Users\Andy\Desktop\BI\BIProject\BIProject\obj\Debug\BIProject.wine_color.reso
 C:\Users\Andy\Desktop\BI\BIProject\BIProject\bin\Debug\WinesDatabase.accdb
 C:\Users\Andy\Desktop\BI\BIProject\BIProject\obj\Debug\BIProject.periods_sale.resources
 C:\Users\Andy\Desktop\BI\BIProject\BIProject\obj\Debug\BIProject.sales_evolution.resources
+C:\Users\Andy\Desktop\BI\BIProject\BIProject\obj\Debug\BIProject.period_record.resources
