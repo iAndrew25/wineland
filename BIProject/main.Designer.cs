@@ -90,9 +90,9 @@
             // 
             this.iIIHighlightTheLinkBetweenReductionsIncreasesAndPriceAndEvolutionOfSalesToolStripMenuItem.Name = "iIIHighlightTheLinkBetweenReductionsIncreasesAndPriceAndEvolutionOfSalesToolStrip" +
     "MenuItem";
-            this.iIIHighlightTheLinkBetweenReductionsIncreasesAndPriceAndEvolutionOfSalesToolStripMenuItem.Size = new System.Drawing.Size(517, 22);
-            this.iIIHighlightTheLinkBetweenReductionsIncreasesAndPriceAndEvolutionOfSalesToolStripMenuItem.Text = "III. Highlight the link between reductions/ increases  and price and evolution of" +
-    " sales";
+            this.iIIHighlightTheLinkBetweenReductionsIncreasesAndPriceAndEvolutionOfSalesToolStripMenuItem.Size = new System.Drawing.Size(412, 22);
+            this.iIIHighlightTheLinkBetweenReductionsIncreasesAndPriceAndEvolutionOfSalesToolStripMenuItem.Text = "III. Identifying associations when buying wines";
+            this.iIIHighlightTheLinkBetweenReductionsIncreasesAndPriceAndEvolutionOfSalesToolStripMenuItem.Click += new System.EventHandler(this.iIIHighlightTheLinkBetweenReductionsIncreasesAndPriceAndEvolutionOfSalesToolStripMenuItem_Click);
             // 
             // iVTheRecordOfMaximumMinimumInAPeriodToolStripMenuItem
             // 

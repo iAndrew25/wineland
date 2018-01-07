@@ -55,5 +55,11 @@ namespace BIProject
             var pr = new period_record();
             pr.Show();
         }
+
+        private void iIIHighlightTheLinkBetweenReductionsIncreasesAndPriceAndEvolutionOfSalesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var s = new statistics();
+            s.Show();
+        }
     }
 }
